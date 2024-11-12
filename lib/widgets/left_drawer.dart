@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kiosku/menu.dart';
+import 'package:kiosku/screens/menu.dart';
 // TODO: Impor halaman MoodEntryFormPage jika sudah dibuat
-import 'package:kiosku/productentry_form.dart';
+import 'package:kiosku/screens/productentry_form.dart';
 
 class LeftDrawer extends StatelessWidget {
   const LeftDrawer({super.key});

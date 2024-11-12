@@ -159,6 +159,6 @@ class _ProductEntryFormPageState extends State<ProductEntryFormPage> {
           ),
         ),
       ),
-    );;
+    );
   }
 }

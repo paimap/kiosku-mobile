@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kiosku/menu.dart';
+import 'package:kiosku/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
