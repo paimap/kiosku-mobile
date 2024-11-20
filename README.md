@@ -99,3 +99,20 @@ Method push() menambahkan suatu route ke dalam stack route yang dikelola oleh Na
 Method pop() menghapus route yang sedang ditampilkan kepada pengguna dari stack route yang dikelola oleh Navigator
 3. pushReplacement()
 Method pushReplacement() menghapus route yang sedang ditampilkan kepada pengguna dan menggantinya dengan suatu route.
+
+# Jawaban Pertanyaan Tugas 9
+##  Jelaskan mengapa kita perlu membuat model untuk melakukan pengambilan ataupun pengiriman data JSON? Apakah akan terjadi error jika kita tidak membuat model terlebih dahulu?
+model diperlukan agar tejadi validasi secara otomatis. Saat kita tidak membuat model maka data tidak akan tervalidasi dan menyebabkan error
+
+## Jelaskan fungsi dari library http yang sudah kamu implementasikan pada tugas ini
+fungsi library http adalah untuk melakukan request http ke server dan menangani komunikasi antara aplikasi dan backend
+
+## Jelaskan fungsi dari CookieRequest dan jelaskan mengapa instance CookieRequest perlu untuk dibagikan ke semua komponen di aplikasi Flutter.
+Cookie request digunakan untuk menangani request http dengan cookie. Cookie digunakan untuk menyimpan data pengguna sehingga diperlukan agar session user dapat terkelola dengan baik.
+
+## Jelaskan mekanisme pengiriman data mulai dari input hingga dapat ditampilkan pada Flutter.
+1. Input data pengguna
+2. Mengirim data ke backend
+3. Pemrosesan data di backend
+4. Pengambilan data untuk ditampilkan
+5. Menampilkan data di flutter
